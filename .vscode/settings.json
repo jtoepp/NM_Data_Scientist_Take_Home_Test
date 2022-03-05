@@ -1,0 +1,8 @@
+{
+    // windows path
+    // "python.pythonPath": "C:\\Users\\Jeremy\\.conda\\envs\\ds4b_101p\\python.exe",
+    // mac path
+    "python.pythonPath": "/Users/jeremy/opt/anaconda3/bin/python",
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "jupyter.sendSelectionToInteractiveWindow": true
+}
