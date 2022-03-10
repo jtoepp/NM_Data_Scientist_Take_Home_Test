@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Models produced during fit()</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.0.1.min.js" integrity="sha384-JpP8FXbgAZLkfur7LiK3j9AGBhHNIvF742meBJrjO2ShJDhCG2I1uVvW+0DUtrmc" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="1f228314-d776-42d6-b692-3fd25982927c" data-root-id="1788"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1942">
+          {"24d88991-0c05-42a5-8b15-cd4de35b275f":{"roots":{"references":[{"attributes":{},"id":"1804","type":"BasicTicker"},{"attributes":{"callback":null,"tooltips":[["performance","@performance{safe}"],["model","@model{safe}"],["model_type","@model_type{safe}"],["hyperparameters","@hyperparameters{safe}"],["inference_latency","@inference_latency{safe}"],["training_time","@training_time{safe}"]]},"id":"1812","type":"HoverTool"},{"attributes":{"axis_label":"inference_latency","formatter":{"id":"1832"},"ticker":{"id":"1800"}},"id":"1799","type":"LinearAxis"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1807"},{"id":"1808"},{"id":"1809"},{"id":"1810"},{"id":"1811"},{"id":"1812"},{"id":"1813"}]},"id":"1815","type":"Toolbar"},{"attributes":{"index":0,"label":{"value":"StackerEnsembleModel_KNN"},"renderers":[{"id":"1826"}]},"id":"1842","type":"LegendItem"},{"attributes":{"items":[{"id":"1836"},{"id":"1837"},{"id":"1838"},{"id":"1839"},{"id":"1840"},{"id":"1841"},{"id":"1842"},{"id":"1843"},{"id":"1844"}],"location":[0,0]},"id":"1845","type":"Legend"},{"attributes":{},"id":"1832","type":"BasicTickFormatter"},{"attributes":{},"id":"1811","type":"ResetTool"},{"attributes":{"index":11,"label":{"value":"StackerEnsembleModel_TabularNeuralNetTorch"},"renderers":[{"id":"1826"}]},"id":"1837","type":"LegendItem"},{"attributes":{"index":4,"label":{"value":"StackerEnsembleModel_RF"},"renderers":[{"id":"1826"}]},"id":"1844","type":"LegendItem"},{"attributes":{"index":7,"label":{"value":"StackerEnsembleModel_XT"},"renderers":[{"id":"1826"}]},"id":"1838","type":"LegendItem"},{"attributes":{"source":{"id":"1787"}},"id":"1827","type":"CDSView"},{"attributes":{"index":10,"label":{"value":"StackerEnsembleModel_XGBoost"},"renderers":[{"id":"1826"}]},"id":"1839","type":"LegendItem"},{"attributes":{"axis":{"id":"1799"},"ticker":null},"id":"1802","type":"Grid"},{"attributes":{},"id":"1797","type":"LinearScale"},{"attributes":{},"id":"1807","type":"CrosshairTool"},{"attributes":{"index":6,"label":{"value":"StackerEnsembleModel_CatBoost"},"renderers":[{"id":"1826"}]},"id":"1841","type":"LegendItem"},{"attributes":{"factors":["WeightedEnsembleModel","StackerEnsembleModel_TabularNeuralNetTorch","StackerEnsembleModel_XT","StackerEnsembleModel_XGBoost","StackerEnsembleModel_LGB","StackerEnsembleModel_CatBoost","StackerEnsembleModel_KNN","StackerEnsembleModel_NNFastAiTabular","StackerEnsembleModel_RF"],"palette":["#1f77b4","#ff7f0e","#2ca02c","#d62728","#9467bd","#8c564b","#e377c2","#7f7f7f","#bcbd22"]},"id":"1786","type":"CategoricalColorMapper"},{"attributes":{"axis_label":"performance","formatter":{"id":"1830"},"ticker":{"id":"1804"}},"id":"1803","type":"LinearAxis"},{"attributes":{"data_source":{"id":"1787"},"glyph":{"id":"1824"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1825"},"selection_glyph":null,"view":{"id":"1827"}},"id":"1826","type":"GlyphRenderer"},{"attributes":{},"id":"1835","type":"Selection"},{"attributes":{"overlay":{"id":"1814"}},"id":"1810","type":"BoxZoomTool"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":{"field":"model_type","transform":{"id":"1786"}},"line_alpha":{"value":0.5},"line_color":{"field":"model_type","transform":{"id":"1786"}},"size":{"units":"screen","value":20},"x":{"field":"inference_latency"},"y":{"field":"performance"}},"id":"1824","type":"Circle"},{"attributes":{},"id":"1795","type":"LinearScale"},{"attributes":{},"id":"1834","type":"UnionRenderers"},{"attributes":{"index":13,"label":{"value":"WeightedEnsembleModel"},"renderers":[{"id":"1826"}]},"id":"1836","type":"LegendItem"},{"attributes":{"axis":{"id":"1803"},"dimension":1,"ticker":null},"id":"1806","type":"Grid"},{"attributes":{},"id":"1800","type":"BasicTicker"},{"attributes":{},"id":"1813","type":"SaveTool"},{"attributes":{"index":9,"label":{"value":"StackerEnsembleModel_NNFastAiTabular"},"renderers":[{"id":"1826"}]},"id":"1843","type":"LegendItem"},{"attributes":{},"id":"1791","type":"DataRange1d"},{"attributes":{"text":"Models produced during fit()"},"id":"1789","type":"Title"},{"attributes":{},"id":"1830","type":"BasicTickFormatter"},{"attributes":{"data":{"hyperparameters":["use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True&lt;br&gt;use_child_oof: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True&lt;br&gt;use_child_oof: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True&lt;br&gt;use_child_oof: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True&lt;br&gt;use_child_oof: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True&lt;br&gt;use_child_oof: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True&lt;br&gt;use_child_oof: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True","use_orig_features: False&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True&lt;br&gt;use_child_oof: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True&lt;br&gt;use_child_oof: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True&lt;br&gt;use_child_oof: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True&lt;br&gt;use_child_oof: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True","use_orig_features: True&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True","use_orig_features: False&lt;br&gt;max_base_models: 25&lt;br&gt;max_base_models_per_type: 5&lt;br&gt;save_bag_folds: True"],"inference_latency":[0.11966228485107422,0.1114189624786377,0.14400172233581543,0.06599974632263184,0.1809992790222168,0.18449997901916504,0.026488065719604492,0.22350192070007324,0.24449801445007324,0.12699651718139648,0.06497001647949219,0.11600112915039062,0.04850053787231445,0.8784048557281494,1.7320358753204346,1.6885392665863037,1.8260385990142822,1.8290390968322754,1.6820220947265625,1.8280699253082275,1.8380396366119385,1.792541265487671,1.7160403728485107,1.817039966583252,1.693537950515747,2.0590128898620605],"model":["KNeighborsUnif_BAG_L1","KNeighborsDist_BAG_L1","LightGBMXT_BAG_L1","LightGBM_BAG_L1","RandomForestGini_BAG_L1","RandomForestEntr_BAG_L1","CatBoost_BAG_L1","ExtraTreesGini_BAG_L1","ExtraTreesEntr_BAG_L1","NeuralNetFastAI_BAG_L1","XGBoost_BAG_L1","NeuralNetTorch_BAG_L1","LightGBMLarge_BAG_L1","WeightedEnsemble_L2","LightGBMXT_BAG_L2","LightGBM_BAG_L2","RandomForestGini_BAG_L2","RandomForestEntr_BAG_L2","CatBoost_BAG_L2","ExtraTreesGini_BAG_L2","ExtraTreesEntr_BAG_L2","NeuralNetFastAI_BAG_L2","XGBoost_BAG_L2","NeuralNetTorch_BAG_L2","LightGBMLarge_BAG_L2","WeightedEnsemble_L3"],"model_type":["StackerEnsembleModel_KNN","StackerEnsembleModel_KNN","StackerEnsembleModel_LGB","StackerEnsembleModel_LGB","StackerEnsembleModel_RF","StackerEnsembleModel_RF","StackerEnsembleModel_CatBoost","StackerEnsembleModel_XT","StackerEnsembleModel_XT","StackerEnsembleModel_NNFastAiTabular","StackerEnsembleModel_XGBoost","StackerEnsembleModel_TabularNeuralNetTorch","StackerEnsembleModel_LGB","WeightedEnsembleModel","StackerEnsembleModel_LGB","StackerEnsembleModel_LGB","StackerEnsembleModel_RF","StackerEnsembleModel_RF","StackerEnsembleModel_CatBoost","StackerEnsembleModel_XT","StackerEnsembleModel_XT","StackerEnsembleModel_NNFastAiTabular","StackerEnsembleModel_XGBoost","StackerEnsembleModel_TabularNeuralNetTorch","StackerEnsembleModel_LGB","WeightedEnsembleModel"],"performance":[0.6679100218956103,0.6796827906708743,0.9510240851712644,0.9444063696723637,0.9584274275760585,0.9605268187983121,0.9505636789943976,0.9744246030866605,0.974852736508049,0.920809860559535,0.9404200610772284,0.8931691458052621,0.9477957015459898,0.9772436906070492,0.9839472821076519,0.9822986013846536,0.9779228035688959,0.9800519743723849,0.9833417177859726,0.9783492748741224,0.9791668975161335,0.9808925896213035,0.9813412224753563,0.9802510127827814,0.9760770235710233,0.9849099243847955],"training_time":[0.012998580932617188,0.012500286102294922,13.886494874954224,7.01149845123291,0.6290004253387451,0.6209988594055176,518.2910306453705,0.5039980411529541,0.567000150680542,31.539499521255493,7.75452995300293,173.4924976825714,18.517492532730103,566.745523929596,778.80704164505,778.3325345516205,773.4675390720367,773.4620399475098,935.6256215572357,773.256539106369,773.356039762497,800.6645424365997,778.1545333862305,837.4240384101868,788.9530382156372,878.3560342788696]},"selected":{"id":"1835"},"selection_policy":{"id":"1834"}},"id":"1787","type":"ColumnDataSource"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1814","type":"BoxAnnotation"},{"attributes":{"below":[{"id":"1799"}],"center":[{"id":"1802"},{"id":"1806"}],"left":[{"id":"1803"}],"renderers":[{"id":"1826"}],"right":[{"id":"1845"}],"title":{"id":"1789"},"toolbar":{"id":"1815"},"x_range":{"id":"1791"},"x_scale":{"id":"1795"},"y_range":{"id":"1793"},"y_scale":{"id":"1797"}},"id":"1788","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1808","type":"PanTool"},{"attributes":{},"id":"1809","type":"WheelZoomTool"},{"attributes":{},"id":"1793","type":"DataRange1d"},{"attributes":{"index":2,"label":{"value":"StackerEnsembleModel_LGB"},"renderers":[{"id":"1826"}]},"id":"1840","type":"LegendItem"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"model_type","transform":{"id":"1786"}},"line_alpha":{"value":0.1},"line_color":{"field":"model_type","transform":{"id":"1786"}},"size":{"units":"screen","value":20},"x":{"field":"inference_latency"},"y":{"field":"performance"}},"id":"1825","type":"Circle"}],"root_ids":["1788"]},"title":"Bokeh Application","version":"2.0.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1942').textContent;
+                  var render_items = [{"docid":"24d88991-0c05-42a5-8b15-cd4de35b275f","root_ids":["1788"],"roots":{"1788":"1f228314-d776-42d6-b692-3fd25982927c"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
